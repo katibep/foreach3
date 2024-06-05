@@ -12,11 +12,19 @@ body {
 
 .film {
   padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  @media(max-width:768px){
+    display: flex;
+    flex-direction: column;
+    margin-top: 0rem;
+  }
 }
 .film .part1 {
   background-color: rgba(28, 27, 33, 0.6);
   border-radius: 6px;
-  width: 20%;
   padding: 1rem;
   @media(max-width:768px){
     width: 100%;
