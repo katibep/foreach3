@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.799);
+}
+
+.film {
+  padding: 1rem;
+}
+.film .part1 {
+  background-color: rgba(28, 27, 33, 0.6);
+  border-radius: 6px;
+  width: 20%;
+  padding: 1rem;
+  @media(max-width:768px){
+    width: 100%;
+  }
+}
+.film .part1 i {
+  color: yellow;
+}
+.film .part1 p {
+  color: rgb(203, 202, 202);
+  margin-bottom: 5px;
+}
+.film .part1 .image img {
+  width: 100%;
+  height: 30vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5px;
+}
+.film .part1 .p {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: white;
+}
+.film .part1 .button-container {
+  margin-top: 5px;
+}
+.film .part1 .button-container button {
+  padding: 6px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background-color: orange;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.film .stars{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
